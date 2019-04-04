@@ -1,0 +1,15 @@
+﻿  Main.cpp
+  Box.cpp
+  Camera.cpp
+  ImageFile.cpp
+  Light.cpp
+  Material.cpp
+  MathLibrary.cpp
+  Plane.cpp
+  Ray.cpp
+  Render.cpp
+  Sphere.cpp
+  Generating code
+  All 316 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  Ray Tracing.vcxproj -> C:\Users\barce\Desktop\Jorge\Ray Tracing\x64\Release\Ray Tracing.exe

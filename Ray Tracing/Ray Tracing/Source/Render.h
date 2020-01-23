@@ -12,10 +12,9 @@ public:
 	~Render();
 
 	bool setProyectedShadow(const Ray & ray);
-	void iluminateObject(float angle, vec3 & color);
 	Ray getShadowRay(const hit_record & record);
-	vec3 getColor(const Ray& ray, int depth = 0);
-	void applyReflection(const hit_record& record, vec3& color, const Ray& ray, const int depth, const int i);
+	vec3 getColor(Ray& ray);
+	vec3 applyReflection(const hit_record& record, Ray& ray);
 
 	Scene* myScene;
 

@@ -32,7 +32,7 @@ public:
 
 	inline float dot(vec2 const& a_Rhs) const { return (m_X * a_Rhs.m_X + m_Y * a_Rhs.m_Y); };
 	vec2& normalize();
-	inline float length() const { return sqrt((m_X*m_X) + (m_Y*m_Y)); };
+	inline float length() const { return sqrtf((m_X*m_X) + (m_Y*m_Y)); };
 };
 
 vec2 operator+(const vec2 &a_Lhs, const vec2 &a_Rhs);
@@ -82,7 +82,7 @@ public:
 	inline float dot(vec3 const& a_Rhs) const { return (m_X * a_Rhs.m_X + m_Y * a_Rhs.m_Y + m_Z * a_Rhs.m_Z); };
 	inline vec3 cross(vec3 const& a_Rhs) const { return vec3((m_Y * a_Rhs.m_Z) - (m_Z * a_Rhs.m_Y), (m_Z * a_Rhs.m_X) - (m_X * a_Rhs.m_Z), (m_X * a_Rhs.m_Y) - (m_Y * a_Rhs.m_X)); };
 	vec3& normalize();
-	inline float length() const { return sqrt((m_X*m_X) + (m_Y*m_Y) + (m_Z*m_Z)); };
+	inline float length() const { return sqrtf((m_X*m_X) + (m_Y*m_Y) + (m_Z*m_Z)); };
 	vec3 scalar(float scalar);
 	vec3& colorClip();
 };

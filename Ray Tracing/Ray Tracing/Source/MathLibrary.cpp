@@ -236,7 +236,7 @@ vec3 & vec3::colorClip()
 	}
 	for (double x : v) {
 
-		x = x * 256 / max;
+		x = x * 255 / max;
 
 	}
 
@@ -245,7 +245,7 @@ vec3 & vec3::colorClip()
 
 vec3 vec3::scalar(float scalar)
 {
-	return vec3(r * scalar, g*scalar, b*scalar);;
+	return vec3(r * scalar, g * scalar, b * scalar);
 }
 
 vec3 operator+(const vec3 &a_Lhs, const vec3 &a_Rhs) {
@@ -614,8 +614,8 @@ mat4 mat4::identity()
 
 mat4 mat4::rotateX(float a_Radians)
 {
-	float cosX = cos(a_Radians);
-	float senX = sin(a_Radians);
+	float cosX = cosf(a_Radians);
+	float senX = sinf(a_Radians);
 
 	mat4 rotationMat(
 		1, 0, 0, 0,
@@ -629,8 +629,8 @@ mat4 mat4::rotateX(float a_Radians)
 
 mat4 mat4::rotateY(float a_Radians)
 {
-	float cosX = cos(a_Radians);
-	float senX = sin(a_Radians);
+	float cosX = cosf(a_Radians);
+	float senX = sinf(a_Radians);
 
 	mat4 rotationMat(
 		cosX, 0, senX, 0,
@@ -644,8 +644,8 @@ mat4 mat4::rotateY(float a_Radians)
 
 mat4 mat4::rotateZ(float a_Radians)
 {
-	float cosX = cos(a_Radians);
-	float senX = sin(a_Radians);
+	float cosX = cosf(a_Radians);
+	float senX = sinf(a_Radians);
 
 	mat4 rotationMat(
 		cosX, -senX, 0, 0,

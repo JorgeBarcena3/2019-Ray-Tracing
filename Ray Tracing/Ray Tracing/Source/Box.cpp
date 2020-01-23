@@ -74,7 +74,6 @@ Box::Box(vec3 bound1, vec3 bound2, vec3 _color)
 	min = bound1;
 	max = bound2;
 	myMaterial.color = _color;
-	myMaterial.texture = false;
 
 
 }

@@ -2,6 +2,7 @@
 #include "Ray.h"
 #include "material.h"
 
+
 struct hit_record {
 
 	float pointAtRay;
@@ -11,13 +12,18 @@ struct hit_record {
 };
 
 
+class Scene;
+
 class objectToTrace
 {
 
 public:
 
 	Material myMaterial;
+
 	virtual bool hit(const Ray& ray, hit_record& record) const = 0;
+
+	virtual vec3 getColor(hit_record record, Scene * scene) const = 0;
 
 };
 

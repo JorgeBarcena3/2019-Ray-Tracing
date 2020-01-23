@@ -14,6 +14,9 @@ public:
 
 	Sphere(vec3 center, float m_radius, vec3 color);
 	~Sphere();
+
+	// Inherited via objectToTrace
+	virtual vec3 getColor(hit_record record, Scene * scene) const;
 };
 
 

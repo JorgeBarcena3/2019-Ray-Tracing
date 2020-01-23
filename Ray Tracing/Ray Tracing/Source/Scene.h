@@ -12,8 +12,13 @@ class Scene
 public:
 
 	std::vector <objectToTrace*> objectsToTrace;
+
 	Light* light;
+
 	const vec3 backgroundColor = vec3(153, 153, 153);
+
+	vec3 ambientLight = vec3(0,0,0);
+
 	~Scene() {
 	
 		delete light;

@@ -1,15 +1,8 @@
 ﻿  Main.cpp
-  Box.cpp
-  Camera.cpp
-  ImageFile.cpp
-  Light.cpp
-  Material.cpp
-  MathLibrary.cpp
-  Plane.cpp
-  Ray.cpp
-  Render.cpp
-  Sphere.cpp
+D:\GitHub\2019-Ray-Tracing\Ray Tracing\Ray Tracing\Main.cpp(43,102): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
   Generating code
-  All 316 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  1 of 292 functions ( 0.3%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
-  Ray Tracing.vcxproj -> C:\Users\barce\Desktop\Jorge\Ray Tracing\x64\Release\Ray Tracing.exe
+  Ray Tracing.vcxproj -> D:\GitHub\2019-Ray-Tracing\Ray Tracing\x64\Release\Ray Tracing.exe

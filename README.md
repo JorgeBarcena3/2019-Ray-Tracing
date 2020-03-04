@@ -11,4 +11,4 @@ Currently my program have 10 classes, plus a file called "main.cpp", which is wh
 
 ![Preview 1](https://github.com/JorgeBarcena3/Ray-Tracing-Rendering/blob/master/output/Preview1.jpg)
 ![Preview 2](https://github.com/JorgeBarcena3/Ray-Tracing-Rendering/blob/master/output/Preview2.jpg)
-![Preview 3](https://github.com/JorgeBarcena3/Ray-Tracing-Rendering/blob/master/output/Preview3.jpg)
+![Preview 3](https://github.com/JorgeBarcena3/Ray-Tracing-Rendering/blob/master/output/Preview3.png)

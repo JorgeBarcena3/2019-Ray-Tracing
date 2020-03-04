@@ -1,3 +1,0 @@
-﻿  Main.cpp
-D:\GitHub\2019-Ray-Tracing\Ray Tracing\Ray Tracing\Main.cpp(42,102): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-  Ray Tracing.vcxproj -> D:\GitHub\2019-Ray-Tracing\Ray Tracing\x64\Debug\Ray Tracing.exe
